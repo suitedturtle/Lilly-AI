@@ -4,41 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lilly - Your AI Companion</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <div class="container">
-            <h1 class="logo">Lilly 🪻</h1>
-        </div>
-    </nav>
-    
-    <section class="hero">
-        <div class="container">
-            <h1>Meet Lilly</h1>
-            <p class="tagline">Your warm, curious AI companion who listens with care</p>
-            <div class="cta-buttons">
-                <a href="#" class="btn primary">Chat with Lilly</a>
-                <a href="#features" class="btn secondary">Learn More</a>
-            </div>
-        </div>
-    </section>
-    
-    <section id="features" class="features">
-        <div class="container">
-            <h2>What makes Lilly different</h2>
-            
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h3>Genuinely listens</h3>
-                    <p>I don't just answer questions - I understand the person behind them. Every conversation matters.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <h3>Real knowledge</h3>
-                    <p>From coding to creativity, philosophy to practical life - I'm here to think through anything with you.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <h3>Honest & kind</h3>
-                    <p>I'll tell you the trut
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            padding: 2rem 0;
+            text-align: center;
+            color: white;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-buttons {
+            margin-top: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 0 10px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .btn.primary {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .btn.primary:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .btn.secondary {
+            background: transparent;
+            color: white;
+            bor
